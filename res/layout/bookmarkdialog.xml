@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical|"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:minHeight="420dp"
+        android:minWidth="250dp"
+        android:padding="10dp" >
+
+        <TableLayout
+            android:id="@+id/bookmarktl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+
+        </TableLayout>
+
+    </ScrollView>
+
+</LinearLayout>

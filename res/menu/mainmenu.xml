@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item android:id="@+id/bookmarkmi" android:title="Bookmarks" android:showAsAction="collapseActionView"></item>
+    <item android:id="@+id/addbookmarkmi" android:title="Add bookmark" android:showAsAction="collapseActionView"></item>
+    <item android:id="@+id/exitmi" android:title="Exit" android:showAsAction="collapseActionView"></item>
+    
+
+</menu>

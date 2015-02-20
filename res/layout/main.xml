@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f3f7f9"
+    android:orientation="vertical" 
+    android:id="@+id/homell">
+
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="60dp"
+	    android:background="@drawable/headerbg"
+	    android:padding="5dp"
+	    android:paddingBottom="5dp"
+	    android:paddingLeft="5dp"
+	    android:paddingRight="5dp"
+	    android:paddingTop="5dp" 
+	    android:gravity="center_vertical|center_horizontal">
+
+		<TextView
+		    android:id="@+id/booktitle"
+		    android:layout_width="180dp"
+		    android:layout_height="50dp"
+		    android:layout_alignParentLeft="true"
+		    android:gravity="center_vertical"
+		    android:paddingLeft="10dp"
+		    android:textColor="#FFFFFF"
+		    android:textSize="18sp"
+		    android:textStyle="bold" >
+			
+		</TextView>
+
+		<Button
+		    android:id="@+id/aboutbt"
+		    android:layout_width="100dp"
+		    android:layout_height="45dp"
+		    android:layout_alignParentRight="true"
+		    android:layout_marginTop="3dp"
+		    android:background="@drawable/buttonbg"
+		    android:minHeight="40dp"
+		    android:shadowRadius="5"
+		    android:text="@string/aboutstr"
+		    android:textColor="#902CE8"
+		    android:textSize="17sp"
+		    android:gravity="center_horizontal|center_vertical" >
+
+		</Button>
+		
+		
+	</RelativeLayout>
+
+	<ScrollView
+	    android:id="@+id/mainsv"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="#aaaaaa" >
+		<RelativeLayout
+		    android:id="@+id/menu"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:gravity="center_horizontal"
+		    android:paddingTop="35dp" >
+	
+			<Button
+			    android:id="@+id/readbt"
+			    android:layout_width="250dp"
+			    android:layout_height="55dp"
+			    android:layout_alignLeft="@+id/outlinebt"
+			    android:background="@drawable/buttonshape"
+			    android:gravity="center_horizontal|center_vertical"
+			    android:shadowColor="#E32D5E"
+			    android:shadowDx="2"
+			    android:shadowDy="2"
+			    android:text="@string/readstr"
+			    android:textColor="#FFFFFF"
+			    android:textSize="20sp" />
+	
+			<Button
+			    android:id="@+id/introbt"
+			    android:layout_width="250dp"
+			    android:layout_height="55dp"
+			    android:layout_alignLeft="@+id/outlinebt"
+			    android:layout_below="@+id/readbt"
+			    android:layout_marginTop="20dp"
+			    android:background="@drawable/buttonshape"
+			    android:gravity="center_horizontal|center_vertical"
+			    android:shadowColor="#E32D5E"
+			    android:shadowDx="2"
+			    android:shadowDy="2"
+			    android:text="@string/introstr"
+			    android:textColor="#FFFFFF"
+			    android:textSize="20sp" />
+	
+			<Button
+			    android:id="@+id/outlinebt"
+			    android:layout_width="250dp"
+			    android:layout_height="55dp"
+			    android:layout_below="@+id/introbt"
+			    android:layout_centerHorizontal="true"
+			    android:layout_marginTop="20dp"
+			    android:background="@drawable/buttonshape"
+			    android:gravity="center_horizontal|center_vertical"
+			    android:shadowColor="#E32D5E"
+			    android:shadowDx="2"
+			    android:shadowDy="2"
+			    android:text="@string/outlinestr"
+			    android:textColor="#FFFFFF"
+			    android:textSize="20sp" />
+			<Button
+			    android:id="@+id/bookmarkbt"
+			    android:layout_width="250dp"
+			    android:layout_height="55dp"
+			    android:layout_alignLeft="@+id/outlinebt"
+			    android:layout_below="@+id/outlinebt"
+			    android:layout_marginTop="20dp"
+			    android:background="@drawable/buttonshape"
+
+			    android:shadowColor="#E32D5E"
+			    android:shadowDx="2"
+			    android:shadowDy="2"
+			    android:text="@string/bookmarkstr"
+			    android:textColor="#FFFFFF"
+			    android:textSize="20sp" />
+			<Button
+			    android:id="@+id/exitbt"
+			    android:layout_width="250dp"
+			    android:layout_height="55dp"
+			    android:layout_alignLeft="@+id/bookmarkbt"
+			    android:layout_below="@+id/bookmarkbt"
+			    android:layout_marginTop="20dp"
+			    android:background="@drawable/buttonshape"
+
+			    android:shadowColor="#E32D5E"
+			    android:shadowDx="2"
+			    android:shadowDy="2"
+			    android:text="@string/exitstr"
+			    android:textColor="#17FF83"
+			    android:textSize="20sp" />
+
+			<include
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_below="@+id/exitbt"
+			    
+			    android:layout_alignParentBottom="true"
+			    layout="@layout/adslayout"
+			    android:layout_marginTop="30dp"	    
+			     />
+			
+		</RelativeLayout>
+
+	</ScrollView>
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,43 @@
+
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="60dp"
+	    android:background="@drawable/headerbg"
+	    android:padding="5dp"
+	    android:paddingTop="5dp" >
+
+		<Button
+		    android:id="@+id/prebt"
+		    android:layout_width="80dp"
+		    android:layout_height="50dp"
+		    android:layout_alignParentLeft="true"
+		    android:background="@drawable/buttonbg"
+		    android:text="@string/prestr"
+		    android:textSize="18sp" 
+		    android:textColor="#902CE8">
+
+		</Button>
+
+		<Button
+		    android:id="@+id/nextbt"
+		    android:layout_width="80dp"
+		    android:layout_height="50dp"
+		    android:layout_alignParentRight="true"
+		    android:background="@drawable/buttonbg"
+		    android:text="@string/nextstr"
+		    android:textSize="18sp" 
+		    android:textColor="#902CE8">
+
+		</Button>
+
+		<TextView
+		    android:id="@+id/sectiontitle"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignBottom="@+id/prebt"
+		    android:layout_alignTop="@+id/prebt"
+		    android:layout_toLeftOf="@+id/nextbt"
+		    android:layout_toRightOf="@+id/prebt"
+		    android:gravity="center_vertical|center_horizontal"
+		    android:textColor="#FFFFFF"
+		    android:textSize="16sp" />

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IronPython Tutorial GBook</string>	
+    <string name="prestr">Pre</string>
+	<string name="nextstr">Next</string>
+	<string name="aboutstr">About</string>
+	<string name="readstr">Read</string>
+	<string name="exitstr">Exit</string>
+    <string name="introstr">Introduction</string>
+	<string name="outlinestr">Outline</string>
+	<string name="endofbook">The is the end of the book!</string>
+	<string name="startofbook">This is the first of the book!</string>
+	<string name="nobook">There is no book in the database!</string>
+	<string name="signature"> GBook Project 2.0 \nDesigned and Programmed by: Gavin(Jialang Zhang).\n\n Gavinz0228@gmail.com \n\n https://www.facebook.com/gavin.zhang.7\n\n</string>
+	<string name="bookmarkstr">Bookmark</string>
+	<string name="addabookmark">Add a bookmark</string>
+	<string name="addbookmarkhint">Type in name of the bookmark</string>
+	<string name="bookmarkadded">The Bookmark has been added successfully.</string>
+	<string name="bookmarkdeleted">The Bookmark has been deleted successfully.</string>
+	<string name="askdeletebookmark">Are you sure to delte this bookmark?</string>
+</resources>
